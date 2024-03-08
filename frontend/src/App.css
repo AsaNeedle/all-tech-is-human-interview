@@ -5,6 +5,7 @@
 .App-logo {
   height: 10vmin;
   pointer-events: none;
+  margin: 3vmin;
 }
 
 .App-header {
@@ -34,4 +35,9 @@
 button {
   margin-left: 10px;
   margin-right: 10px;
+}
+
+li {
+  text-align: left;
+  font-size: calc(10px + 2vmin);
 }
