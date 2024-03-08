@@ -3,22 +3,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
-
-In the project directory, you can run:
-
 ### `npm start`
+Runs the app in the development mode.
+Open [http://localhost:1234](http://localhost:1234) to view it in the browser.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-## Todo
-- Add Zod to do type checking of API results
-- Add Cypress for end-to-end testing of core functionality
-
-
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+If running the backend using Docker, to access the API creae a .env file in the frontend directory and add `REACT_APP_DB_URL="http://localhost:3000/"`.
